@@ -10,6 +10,9 @@
 		C86A716C1666F8C90085ED4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86A716B1666F8C90085ED4A /* Foundation.framework */; };
 		C86A716F1666F8C90085ED4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C86A716E1666F8C90085ED4A /* main.m */; };
 		C86A71731666F8C90085ED4A /* observer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C86A71721666F8C90085ED4A /* observer.1 */; };
+		C86A717D1666FEDA0085ED4A /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = C86A717C1666FEDA0085ED4A /* Subject.m */; };
+		C86A7180166706D90085ED4A /* firstObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C86A717F166706D90085ED4A /* firstObserver.m */; };
+		C86A718316670E8C0085ED4A /* secondObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C86A718216670E8C0085ED4A /* secondObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,13 @@
 		C86A716E1666F8C90085ED4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C86A71711666F8C90085ED4A /* observer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "observer-Prefix.pch"; sourceTree = "<group>"; };
 		C86A71721666F8C90085ED4A /* observer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = observer.1; sourceTree = "<group>"; };
+		C86A717A1666FD6E0085ED4A /* Protocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocal.h; sourceTree = "<group>"; };
+		C86A717B1666FEDA0085ED4A /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		C86A717C1666FEDA0085ED4A /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		C86A717E166706D90085ED4A /* firstObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstObserver.h; sourceTree = "<group>"; };
+		C86A717F166706D90085ED4A /* firstObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstObserver.m; sourceTree = "<group>"; };
+		C86A718116670E8C0085ED4A /* secondObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondObserver.h; sourceTree = "<group>"; };
+		C86A718216670E8C0085ED4A /* secondObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,7 @@
 		C86A716D1666F8C90085ED4A /* observer */ = {
 			isa = PBXGroup;
 			children = (
+				C86A71791666FCD00085ED4A /* Classes */,
 				C86A716E1666F8C90085ED4A /* main.m */,
 				C86A71721666F8C90085ED4A /* observer.1 */,
 				C86A71701666F8C90085ED4A /* Supporting Files */,
@@ -86,6 +97,20 @@
 				C86A71711666F8C90085ED4A /* observer-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C86A71791666FCD00085ED4A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C86A717A1666FD6E0085ED4A /* Protocal.h */,
+				C86A717E166706D90085ED4A /* firstObserver.h */,
+				C86A717F166706D90085ED4A /* firstObserver.m */,
+				C86A717B1666FEDA0085ED4A /* Subject.h */,
+				C86A717C1666FEDA0085ED4A /* Subject.m */,
+				C86A718116670E8C0085ED4A /* secondObserver.h */,
+				C86A718216670E8C0085ED4A /* secondObserver.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86A716F1666F8C90085ED4A /* main.m in Sources */,
+				C86A717D1666FEDA0085ED4A /* Subject.m in Sources */,
+				C86A7180166706D90085ED4A /* firstObserver.m in Sources */,
+				C86A718316670E8C0085ED4A /* secondObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
