@@ -41,6 +41,7 @@
 		C86A717F166706D90085ED4A /* firstObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstObserver.m; sourceTree = "<group>"; };
 		C86A718116670E8C0085ED4A /* secondObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondObserver.h; sourceTree = "<group>"; };
 		C86A718216670E8C0085ED4A /* secondObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondObserver.m; sourceTree = "<group>"; };
+		C86A7188166712130085ED4A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		C86A715C1666F8C90085ED4A = {
 			isa = PBXGroup;
 			children = (
+				C86A7188166712130085ED4A /* README.md */,
 				C86A716D1666F8C90085ED4A /* observer */,
 				C86A716A1666F8C90085ED4A /* Frameworks */,
 				C86A71681666F8C90085ED4A /* Products */,
@@ -262,6 +264,7 @@
 				C86A71781666F8C90085ED4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
